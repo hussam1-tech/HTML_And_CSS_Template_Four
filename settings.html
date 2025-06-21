@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="open-sans">
+    <div class="page mih-100vh df">
+      <aside class="p-20 bc-fff sidebar z-3 shadow df aic fxd-c">
+        <h3 class="mt-0 tac por">Elzero</h3>
+        <ul class="p-0">
+          <li class="rad-6 mb-5 cup transition fz-14 df aic option">
+            <a class="c-000" href="index.html"
+              ><i class="fa-regular fa-chart-bar mr-5"></i>
+              <span>Dashboard</span></a
+            >
+          </li>
+          <li class="active rad-6 mb-5 cup transition fz-14 df aic option">
+            <a class="c-000" href="settings.html"
+              ><i class="fa-solid fa-gear mr-5"></i> <span>Settings</span></a
+            >
+          </li>
+          <li class="rad-6 mb-5 cup transition fz-14 df aic option">
+            <a class="c-000" href="profile.html"
+              ><i class="fa-regular fa-user mr-5"></i> <span>Profile</span></a
+            >
+          </li>
+          <li class="rad-6 mb-5 cup transition fz-14 df aic option">
+            <a class="c-000" href="projects.html">
+              <i class="fa-solid fa-diagram-project mr-5"></i>
+              <span>Projects</span></a
+            >
+          </li>
+          <li class="rad-6 mb-5 cup transition fz-14 df aic option">
+            <a class="c-000" href="courses.html"
+              ><i class="fa-solid fa-graduation-cap mr-5"></i>
+              <span>Courses</span></a
+            >
+          </li>
+          <li class="rad-6 mb-5 cup transition fz-14 df aic option">
+            <a class="c-000" href="friends.html"
+              ><i class="fa-regular fa-circle-user mr-5"></i>
+              <span>Friends</span></a
+            >
+          </li>
+          <li class="rad-6 mb-5 cup transition fz-14 df aic option">
+            <a class="c-000" href="files.html"
+              ><i class="fa-regular fa-file mr-5"></i> <span>Files</span></a
+            >
+          </li>
+          <li class="rad-6 cup transition fz-14 df aic option">
+            <a class="c-000" href="plans.html"
+              ><i class="fa-regular fa-credit-card mr-5"></i>
+              <span>Plans</span></a
+            >
+          </li>
+        </ul>
+      </aside>
+      <main class="fxg">
+        <header class="bc-fff w-full between-flex pl-20 pr-20">
+          <div class="search por">
+            <input
+              class="rad-6 bd-ccc fz-13 transition"
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Type A Keyword"
+            />
+          </div>
+          <div class="notifications df aic">
+            <i class="fa-regular fa-bell mr-15 por"></i>
+            <img class="rad-half" src="imgs/avatar.png" alt="an image" />
+          </div>
+        </header>
+        <section>
+          <h1 class="ml-20 por">Settings</h1>
+          <div class="content gtc-400 p-20 dg g-20">
+            <div class="widget p-30-20 control rad-6 bc-fff rad-10">
+              <div class="df fxd-c por">
+                <h2 class="m-0 mb-10">Site Control</h2>
+                <p class="c-grey mt-10 mb-20">
+                  Control The Website If There Is Maintenance
+                </p>
+                <div class="info between-flex">
+                  <div class="text">
+                    <h4 class="m-0">Website Control</h4>
+                    <p class="c-grey mt-10">
+                      Open/Close Website And Type The Reason
+                    </p>
+                  </div>
+                  <input class="turn" type="checkbox" id="turn" />
+                </div>
+                <form class="df fxd-c g-20">
+                  <textarea
+                    class="thought bd-ccc p-10 rzn rad-6"
+                    name="thought"
+                    id="thought"
+                    placeholder="Close Message Content"
+                  ></textarea>
+                </form>
+              </div>
+            </div>
+            <div class="widget p-30-20 general rad-6 bc-fff rad-10">
+              <div class="df fxd-c por">
+                <h2 class="m-0 mb-10">General Info</h2>
+                <p class="c-grey mt-10 mb-0">
+                  General Information About Your Account
+                </p>
+                <form class="df fxd-c">
+                  <label class="pt-20">
+                    <p class="c-grey fz-14 mt-0 mb-10">First Name</p>
+                    <input
+                      class="bd-ccc fz-13 w-full p-10 rad-6"
+                      type="text"
+                      placeholder="First Name"
+                      name="fName"
+                    />
+                  </label>
+                  <label class="pt-20">
+                    <p class="c-grey fz-14 mt-0 mb-10">Last Name</p>
+                    <input
+                      class="bd-ccc fz-13 w-full p-10 rad-6"
+                      type="text"
+                      placeholder="Last Name"
+                      name="lName"
+                    />
+                  </label>
+                  <label class="pt-20">
+                    <p class="c-grey fz-14 mt-0 mb-10">Email</p>
+                    <div class="df">
+                      <input
+                        class="bd-ccc fz-13 fxg mr-10 p-10 rad-6"
+                        type="email"
+                        placeholder="Your Email"
+                        disabled
+                        value="o@nn.sa"
+                        name="mail"
+                      />
+                      <a class="btn-shape c-blue" href="#">Change</a>
+                    </div>
+                  </label>
+                </form>
+              </div>
+            </div>
+            <div class="widget p-30-20 control rad-6 bc-fff rad-10">
+              <div class="df fxd-c por">
+                <h2 class="m-0 mb-10">Security Info</h2>
+                <p class="c-grey mt-10 mb-0">
+                  Security Information About Your Account
+                </p>
+                <div class="info between-flex bdb-eee pt-20 pb-20">
+                  <div class="text">
+                    <h4 class="m-0">Password</h4>
+                    <p class="c-grey mt-10 mb-0 fz-13">
+                      Last Change On 25/10/2021
+                    </p>
+                  </div>
+                  <a class="btn-shape bc-blue c-fff" href="#">Change</a>
+                </div>
+                <div class="info between-flex bdb-eee pt-20 pb-20">
+                  <div class="text">
+                    <h4 class="m-0">Two-Factor Authentication</h4>
+                    <p class="c-grey mt-10 mb-0 fz-13">
+                      Enable/Disable The Feature
+                    </p>
+                  </div>
+                  <input class="turn" type="checkbox" id="turn2" />
+                </div>
+                <div class="info between-flex pt-20 pb-20">
+                  <div class="text">
+                    <h4 class="m-0">Devices</h4>
+                    <p class="c-grey mt-10 mb-0 fz-13">
+                      Check The Login Devices List
+                    </p>
+                  </div>
+                  <a class="btn-shape bc-eee c-000" href="#">Devices</a>
+                </div>
+              </div>
+            </div>
+            <div class="widget p-30-20 so-info rad-6 bc-fff rad-10">
+              <div class="df fxd-c por">
+                <h2 class="m-0 mb-10">Social Info</h2>
+                <p class="c-grey mt-10 mb-0">Social Media Information</p>
+                <div class="info df pt-20">
+                  <div class="icon center-flex bd-ccc">
+                    <i class="fa-brands fa-twitter c-grey"></i>
+                  </div>
+                  <input
+                    class="w-full p-8-12 bd-ccc fz-13"
+                    type="text"
+                    name="twitter"
+                    id="twitter"
+                    placeholder="Twitter Username"
+                  />
+                </div>
+                <div class="info df pt-20">
+                  <div class="icon center-flex bd-ccc">
+                    <i class="fa-brands fa-facebook-f c-grey"></i>
+                  </div>
+                  <input
+                    class="w-full p-8-12 bd-ccc fz-13"
+                    type="text"
+                    name="facebook"
+                    id="facebook"
+                    placeholder="Facebook Username"
+                  />
+                </div>
+                <div class="info df pt-20">
+                  <div class="icon center-flex bd-ccc">
+                    <i class="fa-brands fa-linkedin c-grey"></i>
+                  </div>
+                  <input
+                    class="w-full p-8-12 bd-ccc fz-13"
+                    type="text"
+                    name="linkedin"
+                    id="linkedin"
+                    placeholder="Linkedin Username"
+                  />
+                </div>
+                <div class="info df pt-20">
+                  <div class="icon center-flex bd-ccc">
+                    <i class="fa-brands fa-youtube c-grey"></i>
+                  </div>
+                  <input
+                    class="w-full p-8-12 bd-ccc fz-13"
+                    type="text"
+                    name="youtube"
+                    id="youtube"
+                    placeholder="Youtube Username"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="widget p-30-20 show rad-6 bc-fff rad-10">
+              <div class="df fxd-c por">
+                <h2 class="m-0 mb-10">Widgets Control</h2>
+                <p class="c-grey mt-10 mb-0">Show/Hide Widgets</p>
+                <div class="info df pt-20">
+                  <label class="cup por"
+                    ><input type="checkbox" name="control" checked />Quick
+                    Draft</label
+                  >
+                </div>
+                <div class="info df pt-20">
+                  <label class="cup por"
+                    ><input type="checkbox" name="control" checked />Yearly
+                    Targets</label
+                  >
+                </div>
+                <div class="info df pt-20">
+                  <label class="cup por"
+                    ><input type="checkbox" name="control" checked />Tickets
+                    Statistics</label
+                  >
+                </div>
+                <div class="info df pt-20">
+                  <label class="cup por"
+                    ><input type="checkbox" name="control" checked />Latest
+                    News</label
+                  >
+                </div>
+                <div class="info df pt-20">
+                  <label class="cup por"
+                    ><input type="checkbox" name="control" />Latest Tasks</label
+                  >
+                </div>
+                <div class="info df pt-20">
+                  <label class="cup por"
+                    ><input type="checkbox" name="control" checked />Top Search
+                    Items</label
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="widget p-30-20 backup rad-6 bc-fff rad-10">
+              <div class="df fxd-c por">
+                <h2 class="m-0 mb-10">Backup Manager</h2>
+                <p class="c-grey mt-10 mb-0">
+                  Control Backup Time And Location
+                </p>
+                <div class="info df pt-20">
+                  <label class="cup por"
+                    ><input type="radio" name="control" checked />Quick
+                    Draft</label
+                  >
+                </div>
+                <div class="info df pt-20">
+                  <label class="cup por"
+                    ><input type="radio" name="control" checked />Yearly
+                    Targets</label
+                  >
+                </div>
+                <div class="info df pt-20">
+                  <label class="cup por"
+                    ><input type="radio" name="control" checked />Tickets
+                    Statistics</label
+                  >
+                </div>
+                <form
+                  class="choices between-flex fxd-c-mobile g-20 pt-20 pb-20 mt-20 bdt-eee"
+                >
+                  <input type="radio" name="choice" id="mega" />
+                  <label
+                    for="mega"
+                    class="choice cup w-full tac fxd-c rad-6 p-20"
+                  >
+                    <i class="fa-solid fa-server db mb-10"></i>
+                    <span>Megaman</span>
+                  </label>
+                  <input type="radio" name="choice" id="zero" />
+                  <label
+                    for="zero"
+                    class="choice cup w-full tac fxd-c rad-6 p-20"
+                  >
+                    <i class="fa-solid fa-server db mb-10"></i>
+                    <span>Zero</span>
+                  </label>
+                  <input type="radio" name="choice" id="sigma" />
+                  <label
+                    for="sigma"
+                    class="choice cup w-full tac fxd-c rad-6 p-20"
+                  >
+                    <i class="fa-solid fa-server db mb-10"></i>
+                    <span>Sigma</span>
+                  </label>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

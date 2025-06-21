@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body class="open-sans">
+    <div class="page mih-100vh df">
+      <aside class="p-20 bc-fff sidebar z-3 shadow df aic fxd-c">
+        <h3 class="mt-0 tac por">Elzero</h3>
+        <ul class="p-0">
+          <li class="rad-6 mb-5 cup transition fz-14 df aic option">
+            <a class="c-000" href="index.html"
+              ><i class="fa-regular fa-chart-bar mr-5"></i>
+              <span>Dashboard</span></a
+            >
+          </li>
+          <li class="rad-6 mb-5 cup transition fz-14 df aic option">
+            <a class="c-000" href="settings.html"
+              ><i class="fa-solid fa-gear mr-5"></i> <span>Settings</span></a
+            >
+          </li>
+          <li class="rad-6 mb-5 cup transition fz-14 df aic option">
+            <a class="c-000" href="profile.html"
+              ><i class="fa-regular fa-user mr-5"></i> <span>Profile</span></a
+            >
+          </li>
+          <li class="rad-6 mb-5 cup transition fz-14 df aic option">
+            <a class="c-000" href="projects.html">
+              <i class="fa-solid fa-diagram-project mr-5"></i>
+              <span>Projects</span></a
+            >
+          </li>
+          <li class="rad-6 mb-5 cup transition fz-14 df aic option">
+            <a class="c-000" href="courses.html"
+              ><i class="fa-solid fa-graduation-cap mr-5"></i>
+              <span>Courses</span></a
+            >
+          </li>
+          <li class="rad-6 mb-5 cup transition fz-14 df aic option">
+            <a class="c-000" href="friends.html"
+              ><i class="fa-regular fa-circle-user mr-5"></i>
+              <span>Friends</span></a
+            >
+          </li>
+          <li class="active rad-6 mb-5 cup transition fz-14 df aic option">
+            <a class="c-000" href="files.html"
+              ><i class="fa-regular fa-file mr-5"></i> <span>Files</span></a
+            >
+          </li>
+          <li class="rad-6 cup transition fz-14 df aic option">
+            <a class="c-000" href="plans.html"
+              ><i class="fa-regular fa-credit-card mr-5"></i>
+              <span>Plans</span></a
+            >
+          </li>
+        </ul>
+      </aside>
+      <main class="fxg">
+        <header class="bc-fff w-full between-flex pl-20 pr-20">
+          <div class="search por">
+            <input
+              class="rad-6 bd-ccc fz-13 transition"
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Type A Keyword"
+            />
+          </div>
+          <div class="notifications df aic">
+            <i class="fa-regular fa-bell mr-15 por"></i>
+            <img class="rad-half" src="imgs/avatar.png" alt="an image" />
+          </div>
+        </header>
+        <section>
+          <h1 class="ml-20 por">Files</h1>
+          <div class="full-content p-20 df fxd-c-mobile g-20 row-reverse">
+            <div class="stats fxg-mobile rad-6 bc-fff rad-10 p-20">
+              <h2>Files Statistics</h2>
+              <div class="bd-eee rad-6 df aic p-10 mb-15">
+                <i
+                  class="fa-regular fa-file-pdf c-blue w-40 h-40 bc-eee center-flex mr-10"
+                ></i>
+                <div class="text df fxd-c">
+                  <p class="fz-13 mt-0 mb-10">PDF Files</p>
+                  <span class="fz-13 c-grey">130</span>
+                </div>
+                <span class="fz-13 c-grey mla">6.5GB</span>
+              </div>
+              <div class="bd-eee rad-6 df aic p-10 mb-15">
+                <i
+                  class="fa-regular fa-images c-green w-40 h-40 bc-eee center-flex mr-10"
+                ></i>
+                <div class="text df fxd-c">
+                  <p class="fz-13 mt-0 mb-10">Images</p>
+                  <span class="fz-13 c-grey">115 Files</span>
+                </div>
+                <span class="fz-13 c-grey mla">3.5GB</span>
+              </div>
+              <div class="bd-eee rad-6 df aic p-10 mb-15">
+                <i
+                  class="fa-regular fa-file-word c-red w-40 h-40 bc-eee center-flex mr-10"
+                ></i>
+                <div class="text df fxd-c">
+                  <p class="fz-13 mt-0 mb-10">Word Files</p>
+                  <span class="fz-13 c-grey">110 Files</span>
+                </div>
+                <span class="fz-13 c-grey mla">3.2GB</span>
+              </div>
+              <div class="bd-eee rad-6 df aic p-10 mb-15">
+                <i
+                  class="fa-solid fa-file-csv c-orange w-40 h-40 bc-eee center-flex mr-10"
+                ></i>
+                <div class="text df fxd-c">
+                  <p class="fz-13 mt-0 mb-10">CSV Files</p>
+                  <span class="fz-13 c-grey">99 Files</span>
+                </div>
+                <span class="fz-13 c-grey mla">2.9GB</span>
+              </div>
+              <a class="c-fff bc-blue db mla mra w-fit fz-13 rad-6" href="#"
+                ><i class="fa-solid fa-angles-up mr-10"></i>Upload</a
+              >
+            </div>
+            <div class="content fxg gtc-200 dg g-20">
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/pdf.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.pdf</p>
+                  <span class="c-grey fz-13">Elzero</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">20/06/2020</span>
+                  <span class="fz-13 c-grey m-0">5.5MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/avi.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.avi</p>
+                  <span class="c-grey fz-13">Admin</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">12.5MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/eps.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.eps</p>
+                  <span class="c-grey fz-13">Uploader</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">2.7MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/psd.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.psd</p>
+                  <span class="c-grey fz-13">Osama</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">15.1MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/dll.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.dll</p>
+                  <span class="c-grey fz-13">Coder</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">2.2MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/png.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.png</p>
+                  <span class="c-grey fz-13">Designer</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">1.1MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/dll.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.dll</p>
+                  <span class="c-grey fz-13">Coder</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">2.2MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/png.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.png</p>
+                  <span class="c-grey fz-13">Designer</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">1.1MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/psd.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.psd</p>
+                  <span class="c-grey fz-13">Osama</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">15.1MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/pdf.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.pdf</p>
+                  <span class="c-grey fz-13">Elzero</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">5.5MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0 avi">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/avi.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.avi</p>
+                  <span class="c-grey fz-13">Admin</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">12.5MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0 eps">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/eps.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.eps</p>
+                  <span class="c-grey fz-13">Uploader</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">2.7MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0 pdf">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/pdf.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.pdf</p>
+                  <span class="c-grey fz-13">Elzero</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">5.5MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0 avi">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/avi.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.avi</p>
+                  <span class="c-grey fz-13">Admin</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">12.5MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0 eps">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/eps.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.eps</p>
+                  <span class="c-grey fz-13">Uploader</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">2.7MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0 psd">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/psd.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.psd</p>
+                  <span class="c-grey fz-13">Osama</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">15.1MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0 dll">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/dll.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.dll</p>
+                  <span class="c-grey fz-13">Coder</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">2.2MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0 png">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/png.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.png</p>
+                  <span class="c-grey fz-13">Designer</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">1.1MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0 dll">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/dll.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.dll</p>
+                  <span class="c-grey fz-13">Coder</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">2.2MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0 png">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/png.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.png</p>
+                  <span class="c-grey fz-13">Designer</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">1.1MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0 psd">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/psd.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.psd</p>
+                  <span class="c-grey fz-13">Osama</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">15.1MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0 pdf">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/pdf.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.pdf</p>
+                  <span class="c-grey fz-13">Elzero</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">5.5MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0 avi">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/avi.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.avi</p>
+                  <span class="c-grey fz-13">Admin</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">12.5MB</span>
+                </div>
+              </div>
+              <div class="widget file rad-6 bc-fff rad-10 vip p-10 pb-0 eps">
+                <div class="upper pb-15 bdb-eee">
+                  <i class="fa-solid fa-download c-grey db"></i>
+                  <img
+                    class="w-70 mla mra db transition"
+                    src="imgs/eps.svg"
+                    alt="an image"
+                  />
+                  <p class="fz-14 mt-20 mb-10 tac">my-file.eps</p>
+                  <span class="c-grey fz-13">Uploader</span>
+                </div>
+                <div class="lower between-flex pt-15 pb-15">
+                  <span class="fz-13 c-grey m-0">16/5/2021</span>
+                  <span class="fz-13 c-grey m-0">2.7MB</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
