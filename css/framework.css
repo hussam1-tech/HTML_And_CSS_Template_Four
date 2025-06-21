@@ -512,6 +512,9 @@ li.done::before {
   .m-0-mobile {
     margin: 0;
   }
+  .mt-10-mobile {
+    margin-top: 10px;
+  }
   .mb-10-mobile {
     margin-bottom: 10px;
   }

@@ -557,6 +557,11 @@ input[disabled] {
 .activity {
   min-width: calc((2 * 100% / 3) - 10px);
 }
+@media (min-width: 768px) {
+  .activity img {
+    margin-right: 10px;
+  }
+}
 .details:hover {
   background-color: #f9f9f9;
 }
