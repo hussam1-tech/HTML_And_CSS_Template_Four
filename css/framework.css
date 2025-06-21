@@ -496,6 +496,9 @@ li.done::before {
 /* End Shadow */
 /* Start Media Queries */
 @media (max-width: 767px) {
+  .btn-shape-s-mobile {
+    padding: 6px 8px;
+  }
   .center-x-mobile {
     left: 50%;
     transform: translateX(-50%);
@@ -520,6 +523,9 @@ li.done::before {
   }
   .mb-10-mobile {
     margin-bottom: 10px;
+  }
+  .p-10-mobile {
+    padding: 10px;
   }
   .tac-mobile {
     text-align: center;

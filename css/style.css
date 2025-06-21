@@ -65,7 +65,7 @@ a {
 }
 @media (max-width: 767px) {
   .sidebar {
-    width: 60px;
+    width: 50px;
     padding: 10px;
   }
   .sidebar h3 {
@@ -162,6 +162,15 @@ section h1::after {
 /* Start Content */
 main {
   overflow: hidden;
+}
+@media (max-width: 500px) {
+  section > .content {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    padding: 10px;
+  }
+  .full-content {
+    padding: 10px;
+  }
 }
 /* End Content */
 /* Start Welcome */
@@ -350,8 +359,18 @@ li.current::before {
 }
 /* End Reminders */
 /* Start Social */
-.social li {
-  height: 60px;
+@media (max-width: 767px) {
+  .social li {
+    height: 50px;
+  }
+  .social li .icon {
+    height: 50px;
+    width: 50px;
+    font-size: 13px;
+  }
+  .social li p {
+    font-size: 15px;
+}
 }
 .social .icon {
   left: 0;
