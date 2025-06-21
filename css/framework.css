@@ -424,6 +424,9 @@ li.done::before {
 .z-3 {
   z-index: 3;
 }
+.z-4 {
+  z-index: 4;
+}
 /* End Position */
 /* Start Width + Height */
 .h-full {
