@@ -160,7 +160,7 @@ section h1::after {
 }
 /* End Section */
 /* Start Content */
-.widget {
+main {
   overflow: hidden;
 }
 /* End Content */
@@ -355,6 +355,7 @@ li.current::before {
 }
 .social .icon {
   left: 0;
+  top: 0;
 }
 .social li p {
   left: 60px;

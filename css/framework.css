@@ -199,6 +199,9 @@ li.done::before {
 .gtc-400 {
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 }
+.gtc-500 {
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
 .dn {
   display: none;
 }
