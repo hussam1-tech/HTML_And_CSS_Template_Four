@@ -625,6 +625,11 @@ input[disabled] {
 .details .df div .turn:checked::before {
   left: 61px;
 }
+@media (max-width: 767px) {
+  .details .df div .turn:checked::before {
+  left: 41px;
+}
+}
 .profile .review {
   color: #f59e0b;
 }
