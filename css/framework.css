@@ -512,6 +512,9 @@ li.done::before {
   .fxg-mobile {
     flex-grow: 1;
   }
+  .g-15-mobile {
+    gap: 15px;
+  }
   .jcc-mobile {
     justify-content: center;
   }
