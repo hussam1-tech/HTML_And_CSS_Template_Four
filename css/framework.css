@@ -223,6 +223,9 @@ li.done::before {
   justify-content: center;
   align-items: center;
 }
+.fixed {
+  position: fixed;
+}
 .fxd-c {
   flex-direction: column;
 }

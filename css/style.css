@@ -73,8 +73,7 @@ a {
 }
 @media (max-width: 767px) {
   .sidebar {
-    width: 50px;
-    padding: 10px;
+    width: 60px;
   }
   .sidebar h3 {
     font-size: 13px;
@@ -101,6 +100,16 @@ a {
 /* Start Main */
 main {
   background-color: #f1f5f9;
+}
+@media (max-width: 767px) {
+  main {
+      margin-left: 60px;
+  }
+}
+@media (min-width: 768px) {
+  main {
+      margin-left: 190px;
+  }
 }
 /* End Main */
 /* Start Header */

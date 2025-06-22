@@ -22,7 +22,7 @@ arrow.addEventListener("click", function () {
     arrow.classList.remove("fa-arrow-left");
     aside.appendChild(asideHandler);
     asideHandler.appendChild(arrow);
-    asideHandler.style.cssText = "position: absolute; left: 10px; top: 14px; width: 30px; height: 30px; border-radius: 50%; box-shadow: 0 0 6px #ddd";
+    asideHandler.style.cssText = "position: fixed; left: 10px; top: 14px; width: 30px; height: 30px; border-radius: 50%; background-color: #fff; box-shadow: 0 0 6px #ddd";
     aside.style.cssText =
       "width: 0; padding: 10px 0 0;";
     arrow.style.cssText =
