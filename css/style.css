@@ -128,7 +128,7 @@ header input {
   width: 160px;
 }
 header input:focus {
-  width: 200px;
+  width: 185px;
 }
 header input:focus::placeholder {
   opacity: 0;
@@ -465,6 +465,11 @@ li.current::before {
 input[disabled] {
   background-color: rgba(136, 136, 136, 0.1);
 }
+.backup .info label,
+.show label {
+  width: 160px;
+  text-align: left;
+}
 /* End General */
 /* Start So-.so-info */
 .so-info .icon {
@@ -756,7 +761,6 @@ input[disabled] {
   top: -17px;
   left: -5px;
 }
-/* End Plans */
 .plan .body .right::before,
 .plan .body .wrong::before {
   font-family: var(--fa-style-family-classic);
@@ -774,6 +778,11 @@ input[disabled] {
   content: "\f00d";
   color: var(--red-color);
 }
+@media (max-width: 767px) {
+  .plan .body li {
+  font-size: 14px;
+}
+}
 .plan .body li::after {
   content: "\f05a";
   font-family: var(--fa-style-family-classic);
@@ -788,6 +797,7 @@ input[disabled] {
 .plan .foot a {
   padding: 6px 14px;
 }
+/* End Plans */
 /* Start Animation */
 @keyframes blink {
   0%,

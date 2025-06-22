@@ -272,6 +272,9 @@ li.done::before {
 .fz-15 {
   font-size: 15px;
 }
+.lh-17 {
+  line-height: 1.7;
+}
 .lh-2 {
   line-height: 2;
 }
@@ -512,6 +515,9 @@ li.done::before {
   .fxg-mobile {
     flex-grow: 1;
   }
+  .fz-14-mobile {
+    font-size: 14px;
+  }
   .g-15-mobile {
     gap: 15px;
   }
@@ -530,11 +536,38 @@ li.done::before {
   .mb-10-mobile {
     margin-bottom: 10px;
   }
+  .mra-mobile {
+    margin-right: auto;
+  }
+  .mla-mobile {
+    margin-left: auto;
+  }
+  .w-150-mobile {
+    width: 150px;
+  }
+  .w-fit-mobile {
+    width: fit-content;
+  }
   .p-10-mobile {
     padding: 10px;
   }
   .tac-mobile {
     text-align: center;
+  }
+  .turn {
+    width: 60px;
+    height: 22px;
+    border-radius: 11px;
+    flex-shrink: 0;
+  }
+  .turn::before {
+    width: 16px;
+    height: 16px;
+    font-size: 14px;
+  }
+  .turn:checked::before {
+    content: "\f00c";
+    left: 39px;
   }
 }
 /* End Media Queries */
