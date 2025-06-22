@@ -241,6 +241,9 @@ li.done::before {
 .g-10 {
   gap: 10px;
 }
+.g-15 {
+  gap: 15px;
+}
 .g-20 {
   gap: 20px;
 }
@@ -541,6 +544,12 @@ li.done::before {
   }
   .mla-mobile {
     margin-left: auto;
+  }
+  .h-60-mobile {
+    height: 60px;
+  }
+  .w-60-mobile {
+    width: 60px;
   }
   .w-150-mobile {
     width: 150px;

@@ -1,6 +1,6 @@
 /* Start Variables */
 :root {
-  --transition-time: .3s;
+  --transition-time: 0.3s;
   --blue-color: #0075ff;
   --blue-alt-color: #0d69d5;
   --orange-color: #f59e0b;
@@ -40,8 +40,8 @@ a {
 /* Start .sidebar */
 @media (min-width: 768px) {
   .sidebar .arrow {
-  display: none;
-}
+    display: none;
+  }
 }
 .sidebar h3 {
   margin-bottom: 40px;
@@ -224,9 +224,11 @@ main {
 /* End Draft */
 /* End Welcome */
 /* Start targets */
-.targets .icon {
-  width: 90px;
-  height: 90px;
+@media (min-width: 768px) {
+  .targets .icon {
+    width: 80px;
+    height: 80px;
+  }
 }
 .targets .dollar .icon,
 .targets .dollar .prog {
@@ -381,7 +383,7 @@ li.current::before {
   }
   .social li p {
     font-size: 15px;
-}
+  }
 }
 .social .icon {
   left: 0;
@@ -627,8 +629,8 @@ input[disabled] {
 }
 @media (max-width: 767px) {
   .details .df div .turn:checked::before {
-  left: 41px;
-}
+    left: 41px;
+  }
 }
 .profile .review {
   color: #f59e0b;
@@ -785,8 +787,8 @@ input[disabled] {
 }
 @media (max-width: 767px) {
   .plan .body li {
-  font-size: 14px;
-}
+    font-size: 14px;
+  }
 }
 .plan .body li::after {
   content: "\f05a";
