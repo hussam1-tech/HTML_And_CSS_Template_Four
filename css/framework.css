@@ -91,6 +91,10 @@ li.done::before {
   font-weight: bold;
   opacity: 0.2;
 }
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
 /* End Components */
 /* End Variables */
 /* Start Borders + Outlines */
